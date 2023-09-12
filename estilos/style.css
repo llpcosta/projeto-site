@@ -2,16 +2,19 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
+<style>
+        /* Estilizando a div principal */
+        .container {
+            width: 100%;
+            max-width: 960px; /* Define a largura máxima da divisória */
+            margin: 0 auto; /* Centraliza a divisória na página */
+            display: flex; /* Permite que os elementos internos se comportem como colunas */
+        }
 
-body{
-    background-color: rgb(0, 0, 0);
-
-}
-
-main{
-    background-color: white;
-    width: 500px;
-    margin: auto;
-    padding: 10px;
-    box-shadow: 3px 3px 5px black;
-}
+        /* Estilizando cada coluna */
+        .coluna {
+            flex: 1; /* Faz com que cada coluna ocupe a mesma largura */
+            padding: 10px; /* Adicione algum espaço interno para separar o conteúdo */
+            border: 1px solid #ccc; /* Adicione uma borda para separar as colunas */
+        }
+    </style>
