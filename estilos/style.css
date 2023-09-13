@@ -2,19 +2,99 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
-<style>
-        /* Estilizando a div principal */
-        .container {
-            width: 100%;
-            max-width: 960px; /* Define a largura máxima da divisória */
-            margin: 0 auto; /* Centraliza a divisória na página */
-            display: flex; /* Permite que os elementos internos se comportem como colunas */
-        }
+body {
+    background-image: url(https://assets.bonappetit.com/photos/5c366551f212512d0e6cefd0/16:9/w_2560%2Cc_limit/Basically-Coffee-0219-03.jpg);
+    font-family: sans-serif;
+    padding: 20px;
+}
 
-        /* Estilizando cada coluna */
-        .coluna {
-            flex: 1; /* Faz com que cada coluna ocupe a mesma largura */
-            padding: 10px; /* Adicione algum espaço interno para separar o conteúdo */
-            border: 1px solid #ccc; /* Adicione uma borda para separar as colunas */
-        }
-    </style>
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.established {
+    font-style: italic;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+.menu {
+    width: 80%;
+    background-color: rgb(231, 167, 83);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -60px;
+    width: 200px;
+    height: 200px;
+}
+
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+
+.bottom-line {
+    margin-top: 25px;
+}
+
+h1, h2 {
+    font-family: Impact, serif;
+}
+
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.flavor, .dessert {
+    text-align: left;
+    width: 75%;
+}
+
+.price {
+    text-align: right;
+    width: 25%;
+}
+
+footer {
+    font-size: 14px;
+}
+
+.adress {
+    margin-bottom: 5px;
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: brown;
+}
+
+a:active {
+    color: brown;
+}
